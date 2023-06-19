@@ -22,3 +22,23 @@
 # print(float1 + float2)
 
 #string is default input
+
+#taking multiple inputs at a time 
+# x,y= input("Enter two values : ").split()
+# print(x,y)
+
+#taking three input at a time
+# x,y,z= input("Enter three values : ").split()
+# print(x,y,z)
+#printing with format
+# print("x is : {} , y is : {} , z is : {}".format(x,y,z))
+
+# taking multiple input at a time
+# and type casting them using list
+# x = list(map(int,input("Enter number with spaces : ").split()))
+# print(x)
+
+# Fusing list comprehension
+x = [int(x) for x in input("Enter number with spaces : ").split()]
+print(x)
+
